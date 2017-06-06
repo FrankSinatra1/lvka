@@ -52,6 +52,7 @@ a:hover {
 }
 
 .header-menu ul li{
+    position: relative;
     margin: 0 60px;
 }.header-menu ul li:first-child {
     margin-left:0 !important;
@@ -355,8 +356,17 @@ a:hover {
     color: #fff;
 }.right__block form {margin-top: 15px;}.in-foot {width: 300px;}
 
-
-
+@media only screen  and (min-width: 1824px) {
+    .wrapper__social {
+        width: 1410px;
+    }
+    .wrap-soc {
+        width: 1150px;
+    }
+    .wrap-soc ul li:first-child {
+        margin-left: 339px;
+    }
+}
 
 
 
