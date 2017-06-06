@@ -77,7 +77,7 @@ a:hover {
 }
 
 .t-waterSection-one {
-    width: 620px;
+    width: 580px;
     font-family: 'HelveticaMedium';
 }.t-waterSection-one p:last-child {
     font-size: 2em;
@@ -356,20 +356,43 @@ a:hover {
     color: #fff;
 }.right__block form {margin-top: 15px;}.in-foot {width: 300px;}
 
-@media only screen  and (min-width: 1824px) {
+
+@media only screen and (min-width : 1200px) {
+    .wrap-soc ul li:first-child {
+        margin-left: 0;
+    }
+}
+    
+@media only screen and (max-width : 1200px) {
+    .wrap-soc ul li:first-child {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width : 1400px) {
+    .wrap-soc ul li:first-child {
+        margin-left: 97px;
+    }
+}
+
+@media only screen and (min-width : 1550px) {
+    .wrap-soc ul li:first-child {
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (min-width : 1850px) {
+    .wrap-soc ul li:first-child {
+        margin-left: 340px;
+    }
     .wrapper__social {
-        width: 1410px;
+        width: 1400px;
     }
     .wrap-soc {
         width: 1150px;
     }
-    .wrap-soc ul li:first-child {
-        margin-left: 339px;
-    }
 }
-
-
-
+    
 
 
 
