@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../WOW-master/css/libs/animate.css">
+    <script src="../jquery-1.9.1.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,7 +13,7 @@
   
    
    <div class="wrapper__header">
-       <div class="header">
+       <div class="header wow slideInRight" data-wow-duration=".6s">
            <div class="header-logo">
                <a href="#"><img src="../img/logo_bg.png" alt=""></a>
            </div>
@@ -33,18 +35,18 @@
    </div>
    
    
-   <div class="wrapper--mainIMG">
+   <div class="wrapper--mainIMG wow slideInLeft" data-wow-duration=".6s">
        <img src="../img/main_bg.png" alt="">
    </div>
    
    <div class="wrapper__textWater">
-        <div class="t-waterSection-one">
+        <div class="t-waterSection-one  wow bounceInDown" data-wow-duration=".6s" data-wow-delay=".2s">
             <a href="#">
                <p class="t-roman">appreciate</p>
                <p>Look down the scenes of upcoming documentary describing Haitian life of Murakami and his entourage</p>
             </a>
         </div>
-        <div class="t-waterSection-two">
+        <div class="t-waterSection-two wow bounceInUp" data-wow-duration=".6s" data-wow-delay=".2s">
             <p>Taking cues from Japanese author Murakami, this series unpacks that feeling of isolation, longing and distance, even when we`re surrounded by others.</p>
             <a href="#">Read more <img src="../img/arrow-right_bg.png" alt=""></a>
         </div>
@@ -52,14 +54,14 @@
    
    
    <div class="wraapper__categories">
-       <div class="bg-item">
+       <div class="bg-item wow fadeIn" data-wow-duration="1s">
             <a href="#">
                <img src="../img/jeans_bg.png" alt="">
                <p class="t-roman">appreciate</p>
                <p>The Best Streetwear of 2015 - The Results</p>
             </a>
        </div>
-       <div class="wrap-bgItems">
+       <div class="wrap-bgItems wow fadeIn" data-wow-duration="1s">
             <div class="wrap-itemOne">
                     <a href="#">
                        <img src="../img/velo_bg.png" alt="">
@@ -67,7 +69,7 @@
                        <p>Emily Ratajkowski Covers`Le Petit Voyeur` Volume 4</p>
                     </a>
             </div>
-            <div class="wrap-itemTwo">
+            <div class="wrap-itemTwo wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s">
                     <a href="#">
                        <img src="../img/four_bg.png" alt="">
                        <p class="t-roman">KNOW</p>
@@ -79,8 +81,8 @@
    
     
     <div class="wrapper__form">
-        <p>Subscribe to our newsletter and never miss our newest LVKA stories!</p>
-        <form action="#" class="form" method="post">
+        <p class="wow fadeInUpBig" data-wow-duration=".6s">Subscribe to our newsletter and never miss our newest LVKA stories!</p>
+        <form action="#" class="form wow fadeInUpBig" data-wow-duration=".6s" method="post">
             <input type="text" class="in-text" placeholder="Enter your email">
             <input type="submit" value="Submit" class="submit">
         </form>
@@ -89,7 +91,7 @@
     
     <div class="wrapper__miniInfo">
         <div class="wrap-info">
-            <div class="wrap-columnOne">
+            <div class="wrap-columnOne wow fadeInUpBig" data-wow-duration=".6s">
                 <a href="#"><img src="../img/appreciate_bg.png" alt=""></a>
                   <a href="#">
                      <div class="wrap-textAll">
@@ -99,7 +101,7 @@
                      </div>
                   </a>
             </div>
-            <div class="wrap-columnTwo">
+            <div class="wrap-columnTwo wow fadeInUpBig" data-wow-duration=".6s">
                <a href="#"><img src="../img/visualize_bg.png" alt=""></a>
                   <a href="#">
                    <div class="wrap-textAll">
@@ -109,7 +111,7 @@
                    </div>
                 </a>
             </div>
-            <div class="wrap-columnThree">
+            <div class="wrap-columnThree wow fadeInUpBig" data-wow-duration=".6s">
                 <a href="#"><img src="../img/foot_bg.png" alt=""></a>
                    <a href="#">
                     <div class="wrap-textAll">
@@ -120,7 +122,7 @@
                 </a>
             </div>
         </div>
-        <div class="wrap-sceyt">
+        <div class="wrap-sceyt wow fadeInUpBig" data-wow-duration=".6s">
             <a href="#"><img src="../img/sceyt_bg.png" alt=""></a>
             <a href="#">
                 <p class="t-roman">know</p>
@@ -131,7 +133,7 @@
     
     
     <div class="wrapper__social">
-        <div class="wrap-soc">
+        <div class="wrap-soc wow slideInLeft" data-wow-duration=".6s">
             <ul>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">Instagram</a></li>
@@ -139,7 +141,7 @@
                 <li><a href="#">SoundCloud</a></li>
             </ul>
         </div>
-        <div class="wrap-magazine">
+        <div class="wrap-magazine wow slideInRight" data-wow-duration=".6s">
             <p>LVKA Magazine <br> Social media Channels</p>
         </div>
     </div>
@@ -150,7 +152,7 @@
            <p>LVKA Categories</p>
        </div> 
        <div class="bg-categories">
-           <div class="categ-Item-bgOne animMain">
+           <div class="categ-Item-bgOne animMain wow fadeInDownBig" data-wow-duration=".6s">
                 <a href="#">
                     <div class="wrap-textCateg">
                        <p>Live</p>
@@ -160,7 +162,7 @@
                     </div>
                  </a>
            </div>
-           <div class="categ-Item-bgTwo animMain">
+           <div class="categ-Item-bgTwo animMain wow fadeInDownBig" data-wow-duration=".7s">
                 <a href="#">
                     <div class="wrap-textCateg">
                        <p>Visualise</p>
@@ -170,7 +172,7 @@
                     </div>
                  </a>
            </div>
-           <div class="categ-Item-bgThree animMain">
+           <div class="categ-Item-bgThree animMain wow fadeInDownBig" data-wow-duration=".8s">
                 <a href="#">
                     <div class="wrap-textCateg">
                        <p>Know</p>
@@ -180,7 +182,7 @@
                     </div>
                 </a>
            </div>
-           <div class="categ-Item-bgFour animMain">
+           <div class="categ-Item-bgFour animMain wow fadeInDownBig" data-wow-duration=".9s">
                 <a href="#">
                     <div class="wrap-textCateg">
                        <p>Appreciate</p>
@@ -196,7 +198,7 @@
     
     <div class="wrappre__footer">
         <div class="wrap-foot">
-            <div class="left__block">
+            <div class="left__block wow fadeInUpBig" data-wow-duration=".6s">
                 <a href="#">
                     <img src="../img/logo_foot.png" alt="">
                 </a>
@@ -208,7 +210,7 @@
                     <li><a href="#">SoundCloud</a></li>
                 </ul>
             </div>
-            <div class="right__block">
+            <div class="right__block wow fadeInUpBig" data-wow-duration=".6s">
                <p>Subscribe to newsletters</p>
                 <form action="#" class="form" method="post">
                     <input type="text" class="in-text in-foot" placeholder="Enter your email">
@@ -218,6 +220,21 @@
         </div>
     </div>
     
-    
+    <script src="../WOW-master/dist/wow.min.js"></script>
+       <script>var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);
+wow.init();</script>
 </body>
 </html>
